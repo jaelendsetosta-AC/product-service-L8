@@ -5,7 +5,7 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
+            name: "Wireless Bluetooth Speaker".to_string(),
             price: 9.99,
             description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
             image: "/catnip.jpg".to_string()
